@@ -1,4 +1,4 @@
-# audit_vllm_cluster
+# ParamAtlas
 
 All-in-one, **zero-knob** inspector to **map the internal structure** of LLMs/VLMs and MoE models.  
 Works directly from a **Hugging Face model id/path** (no server needed) or can **auto-discover** the model from a running **vLLM** endpoint. Includes a **FAST mode** that builds the full module skeleton and per-module parameter counts **without loading any weights**.
